@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    background: #2CB3F3;
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+header{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+h1{
+    padding: 10px;
+}
+.cifre1, .cifre2{
+    width: 100px;
+    height: 200px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: -12%;
+}
+.cifre2{
+    left: 81.9%;
+}
+.corpo{
+    width: 550px;
+    height: 400px;
+    background: white;
+    border-radius: 60px 60px 0 0;
+    position: relative;
+    margin: auto;
+}
+.rosto{
+    position: relative;
+    top: 9%;
+    left: 9%;
+    width: 450px;
+    height: 330px;
+    background: #FFE1C9;
+    border-radius: 50%;
+}
+.olho-esquerdo{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 25%;
+}  
+.olho-direito{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: black;
+    position: relative;
+    top: 20%;
+    left: 65%;
+}
+.boca{
+    position: absolute;
+    top: 53%;
+    left: 23%;
+    background: transparent;
+}
+.boca input{
+    border-radius: 5px;
+    display: flex;
+    background:  white;
+    border: 2px solid;
+    padding: 10px;
+    width: 240px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer button{
+    margin-top: 1%;
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    background: #55A603;
+    border-radius: 6%;
+    border: none;
+    box-shadow: 0px 4px 3px black;
+    color: #B2F272;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+footer button:hover{
+    box-shadow: 0px 4px 30px white;
+    cursor: pointer;
+}

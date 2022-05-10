@@ -104,3 +104,32 @@ footer button:hover{
     box-shadow: 0px 4px 30px white;
     cursor: pointer;
 }
+@media(max-width:550px){
+    .corpo{
+        width: 450px;
+        height: 300px;
+    }
+    .rosto{
+        width: 360px;
+        height: 230px;
+    }
+    .olho-direito{
+        width: 25px;
+        height: 25px;
+    }
+    .olho-esquerdo{
+        width: 25px;
+        height: 25px;
+    }
+    .chifre2 {
+        left: 77.9%;
+    }
+    .denteSuperior{
+        padding: 5px;
+        width: 193px;
+    }
+    .denteInferior{
+        padding: 3px;
+        width: 138px;
+    }
+}
